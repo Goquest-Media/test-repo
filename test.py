@@ -1,3 +1,5 @@
 from datetime import datetime
-print("Vrushab    ", datetime.now())
-print('demo')
+import time
+for i in range(5):
+    print(datetime.now())
+    time.sleep(1)
