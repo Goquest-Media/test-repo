@@ -9,5 +9,9 @@ def get_time_loop():
 def get_double(num):
     return num*2
 
+def hello(name):
+    return (f"Hello {name}")
+
 print(get_double(4))
 print(get_double(get_double(4)))
+print(hello('vrushab'))
