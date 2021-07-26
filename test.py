@@ -12,6 +12,11 @@ def get_double(num):
 def get_triple(num):
     return num*3
 
+
+def even_odd(num):
+    if num%2==0: return "even" 
+    else: return "odd"
 print(get_double(4))
 print(get_double(get_double(4)))
 print(get_triple(3))
+print(even_odd(11))
