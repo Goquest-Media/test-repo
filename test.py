@@ -10,3 +10,4 @@ def get_double(num):
     return num*2
 
 print(get_double(4))
+print(get_double(get_double(4)))
