@@ -9,5 +9,9 @@ def get_time_loop():
 def get_double(num):
     return num*2
 
+def even_odd(num):
+    if num%2==0: return "even" 
+    else: return "odd"
 print(get_double(4))
 print(get_double(get_double(4)))
+print(even_odd(11))
