@@ -9,5 +9,9 @@ def get_time_loop():
 def get_double(num):
     return num*2
 
+def get_triple(num):
+    return num*3
+
 print(get_double(4))
 print(get_double(get_double(4)))
+print(get_triple(3))
