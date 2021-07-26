@@ -16,7 +16,12 @@ def get_triple(num):
 def even_odd(num):
     if num%2==0: return "even" 
     else: return "odd"
+
+def hello(name):
+    return (f"Hello {name}")
+
 print(get_double(4))
 print(get_double(get_double(4)))
 print(get_triple(3))
 print(even_odd(11))
+print(hello('vrushab'))
