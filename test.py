@@ -5,18 +5,13 @@ def get_time_loop():
         print(datetime.now())
         time.sleep(2)
 #time delay set to 2
-
 def get_double(num):
     return num*2
-
 def get_triple(num):
     return num*3
-
-
 def even_odd(num):
     if num%2==0: return "even" 
     else: return "odd"
-
 def hello(name):
     return (f"Hello {name}")
 
